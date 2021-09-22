@@ -1,0 +1,59 @@
+.slider{
+    width: 100%;
+    margin: auto;
+    background-color: #833ab9;
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+.sliderul{
+    padding: 0;
+    background-color: #833ab9;
+    display: flex;
+    width: 300%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+
+.sliderli{
+    list-style: none;
+    background-color: #833ab9;
+    width: 100%;
+}
+
+.textSize{
+    font-size: 40px;
+}
+
+.topcolor{
+    background-color: #303030;
+}
+
+.bgcolor{
+    background-color: #833ab9;
+}
+
+.sliderCar{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    15% {margin-left: 0;}
+    35% {margin-left: -100%;}
+    60% {margin-left: -100%;}
+    80% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+
+.bottomcolor{
+    background-color: #3a3939;
+}
+
+.bottomcolor2{
+    background-color: #232323;
+}
+
+.bottomcolor3{
+    background-color: #1d1c1c;
+}
